@@ -1,2 +1,3 @@
 # dotenv environment variables file
 **/*.env
+mern/server/config.env
