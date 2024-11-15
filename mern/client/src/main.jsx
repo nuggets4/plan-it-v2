@@ -4,41 +4,19 @@ import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
-import App from "./App";
-import Record from "./components/Record";
-import RecordList from "./components/RecordList";
+import Login from './components/Login.jsx';
+import ErrorPage from "./components/ErrorPage.jsx"; 
 import "./index.css";
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <App />,
-    children: [
-      {
-        path: "/",
-        element: <RecordList />,
-      },
-    ],
+    element: <Login />, // Make this the default route for "/"
+    errorElement: <ErrorPage />,
   },
   {
-    path: "/edit/:id",
-    element: <App />,
-    children: [
-      {
-        path: "/edit/:id",
-        element: <Record />,
-      },
-    ],
-  },
-  {
-    path: "/create",
-    element: <App />,
-    children: [
-      {
-        path: "/create",
-        element: <Record />,
-      },
-    ],
+    path: "*", // Catch-all for undefined routes
+    element: <ErrorPage />,
   },
 ]);
 
