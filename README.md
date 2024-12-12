@@ -1,17 +1,17 @@
 # Plan-It
 
+## Introduction
+Students struggle to find common free time for meetings, events, and social gatherings. However, existing calendar platforms lack functionality for storing and reusing schedules. Our project Plan-It Schedule addresses this gap by providing a platform to:
+-   Build and store reusable calendar templates.
+  - Create events and see overlapping schedules.
+  - Share events with a URL.
+
 ## Role Descriptions
 Group Members:
 - Anna: Backend: Calendar system
 - Emily: Frontend/Backend: Login system
 - Louisa: Backend: Login system
 - Shyamala: Frontend/Backend: Calendar system
-
-## Introduction
-Students struggle to find common free time for meetings, events, and social gatherings. However, existing calendar platforms lack functionality for storing and reusing schedules. Our project Plan-It Schedule addresses this gap by providing a platform to:
--   Build and store reusable calendar templates.
-  - Create events and see overlapping schedules.
-  - Share events with a URL.
 
 ## Technical architecture:
 <img width="760" alt="Screenshot 2024-12-11 at 11 04 46 PM" src="https://github.com/user-attachments/assets/fe775f13-e122-4145-922c-024dab8eed39" />
