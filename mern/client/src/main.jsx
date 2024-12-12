@@ -4,7 +4,7 @@ import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
-import Login from './components/Login.jsx';
+import Login from './components/login.jsx';
 import ErrorPage from "./components/ErrorPage.jsx"; 
 import "./index.css";
 
