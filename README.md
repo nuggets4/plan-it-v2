@@ -2,9 +2,9 @@ Plan-It
 
 Group Members:
 - Anna: Backend: Calendar system
-- Emily: Frontend: Login system
+- Emily: Frontend/Backend: Login system
 - Louisa: Backend: Login system
-- Shyamala: Frontend: Calendar system
+- Shyamala: Frontend/Backend: Calendar system
 
 Summary of presentation introduction:
 - Students struggle to find common free time for meetings, events, and social gatherings.
