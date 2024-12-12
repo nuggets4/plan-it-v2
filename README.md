@@ -20,7 +20,7 @@ Backend:
 - Built with JavaScript using Node.js and Express.js.
 - MongoDB database stores user data, calendars, schedules, events, and past logs.
 - Manual testing on LocalHost ensures proper function individually and together.
-- 
+  
 Frontend:
 - Built with React, HTML, and CSS.
 - Easy to learn and well-documented for team efficiency.
