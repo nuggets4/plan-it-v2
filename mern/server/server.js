@@ -13,3 +13,11 @@ app.use("/record", records);
 app.listen(PORT, () => {
   console.log(`Server listening on port ${PORT}`);
 });
+
+app.get("/signup", (req, res) => {
+  res.render("signup");
+});
+
+app.get("/", (req, res) => {
+  res.render("login");
+});
