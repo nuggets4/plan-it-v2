@@ -5,17 +5,32 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import Login from './components/login.jsx';
-import ErrorPage from "./components/ErrorPage.jsx"; 
+import LoginActually from './components/login_actually.jsx';
+import WeeklyCalendar from './components/RecordList.jsx';
+import Record from './components/Record.jsx';
+import ErrorPage from "./components/ErrorPage.jsx";
 import "./index.css";
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Login />, // Make this the default route for "/"
+    element: <Login />,
     errorElement: <ErrorPage />,
   },
   {
-    path: "*", // Catch-all for undefined routes
+    path: "/login",
+    element: <LoginActually />,
+  },
+  {
+    path: "/calendar",
+    element: <WeeklyCalendar />,
+  },
+  {
+    path: "/record/:id?",
+    element: <Record />,
+  },
+  {
+    path: "*",
     element: <ErrorPage />,
   },
 ]);

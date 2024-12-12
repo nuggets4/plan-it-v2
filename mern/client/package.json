@@ -10,10 +10,12 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@shadcn/ui": "^0.0.4",
     "date-fns": "^4.1.0",
     "lucide-react": "^0.468.0",
     "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "react-dom": "^18.3.1",
+    "react-hot-toast": "^2.4.1"
   },
   "devDependencies": {
     "@eslint/js": "^9.11.1",
@@ -26,7 +28,7 @@
     "eslint-plugin-react-refresh": "^0.4.12",
     "globals": "^15.9.0",
     "postcss": "^8.4.47",
-    "react-router-dom": "^6.27.0",
+    "react-router-dom": "^6.28.0",
     "tailwindcss": "^3.4.14",
     "typescript": "^5.5.3",
     "typescript-eslint": "^8.7.0",
@@ -39,4 +41,3 @@
   "license": "ISC",
   "vite": "^5.4.11"
 }
-

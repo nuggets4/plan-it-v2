@@ -16,10 +16,6 @@ body {
 }
 
 /* Left side with gradient background */
-.left-side {
-    flex: 1;
-    background: linear-gradient(135deg, #f6d365 0%, #fda085 50%, #f093fb 100%);
-}
 
 /* Right side with form */
 .right-side {
@@ -90,4 +86,68 @@ a {
 a:hover {
     text-decoration: underline;
 }
+/* Add these styles to your existing Login.css */
 
+.create-account-btn {
+    width: 100%;
+    padding: 12px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+.create-account-btn:hover {
+    background-color: #444;
+}
+
+.terms {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #666;
+}
+
+.terms a {
+    color: #333;
+    text-decoration: underline;
+}
+
+/* Add these styles to your existing Login.css */
+
+.brand-name {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 5rem;  /* Very large text */
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    font-family: 'Arial', sans-serif;
+    letter-spacing: 2px;
+}
+
+.left-side {
+    position: relative;  /* Added to help with absolute positioning of brand-name */
+    background: linear-gradient(45deg, #FFD700, #FFA500, #FF69B4);  /* Gold to Orange to Pink gradient */
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: gradientBG 15s ease infinite;
+}
+
+@keyframes gradientBG {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
