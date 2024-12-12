@@ -28,11 +28,15 @@ Students struggle to find common free time for meetings, events, and social gath
 
 
 ## Project Instruction
-### Packages:
+To run our project, put the following in the terminal: 
 ```bash
 npm install
-cd mern, cd client, npm i, npm run dev
+cd mern
+cd client
+npm i
+npm run dev #or npm vite
 ```
+
 
 ## Sources:
 - GPT: Helped create Calendar system
