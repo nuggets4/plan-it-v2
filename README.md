@@ -1,3 +1,5 @@
+Plan-It
+
 Group Members:
 - Anna: Backend: Calendar system
 - Emily: Frontend: Login system
@@ -25,4 +27,5 @@ Frontend:
 - Manual testing ensures proper functionality and seamless user experience.
 
 To run:
-cd mern, cd client, npm run dev
+npm install
+cd mern, cd client, npm i, npm run dev
