@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+/* Left side with gradient background */
+.left-side {
+    flex: 1;
+    background: linear-gradient(135deg, #f6d365 0%, #fda085 50%, #f093fb 100%);
+}
+
+/* Right side with form */
+.right-side {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-container {
+    width: 80%;
+    max-width: 400px;
+}
+
+.createAccount {
+    color: #333;
+    font-size: 32px;
+    font-weight: 500;
+}
+
+
+.user-email-pass {
+    display: flex;
+    flex-direction: column;
+    color:#666666;
+}
+
+.login {
+    margin-bottom: 32px;
+}
+
+label {
+    margin-top: 20px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+small {
+    font-size: 10px;
+    color: #666;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border-radius: 5px;
+    border: none;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+a {
+    color: #007bff;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
