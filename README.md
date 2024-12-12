@@ -29,3 +29,7 @@ Frontend:
 To run:
 npm install
 cd mern, cd client, npm i, npm run dev
+
+Sources:
+- GPT:Helped create Calendar system
+- Starter code with MongoDB: https://www.mongodb.com/resources/languages/mern-stack-tutorial 
